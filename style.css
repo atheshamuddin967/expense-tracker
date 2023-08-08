@@ -1,0 +1,75 @@
+.container{
+
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto ;
+}
+
+#income{
+    color: green;
+}
+#expense{
+    color: red;
+}
+h3{
+    margin: 0 0;
+}
+h4{
+    margin: 0 0;
+}
+
+
+.item {
+    margin:  0 0;
+    padding: 0 0;
+}
+.item li{
+    list-style :none;
+    position: relative;
+    text-align: left;
+    border: 1px solid gray;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    content: "editable";
+}
+.item li span{
+    float: right;
+}
+ .dlt-btn{
+
+    position: absolute;
+    right: -40px;
+    top: 0;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+height: 100%;
+    border: 0px;
+    padding: 10px;
+}
+
+form{
+    margin-top: 30px;
+    text-align: left;
+}
+label{
+    font-size: 20px;
+}
+form input{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    border: 0px;
+}
+
+.plus{
+    color: green;
+}
+.minus{
+    color: red;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d86126bd7f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+<div class="container">
+<h3>Your balance</h3>
+<h4 id="balance">00</h4>
+<hr>
+<h3>Your income</h3>
+<h4 id="income">00</h4>
+<hr>
+<h3>Your expense</h3>
+<h4 id="expense">00</h4>
+
+<div class="transactions">
+<h1>Your transactions</h1>
+
+<ul id="item" class="item">
+
+<!-- <li>abc <span>123</span> <button class="dlt-btn">dlt</button></li> -->
+
+
+</ul>
+
+
+<hr>
+<form action="" id="form">
+<label for="transaction-name">Discription</label> <br>
+<input type="text" name="transaction-name" id="transaction-name"> <br>
+<label for="transaction-amount">Amount</label> <br>
+<input type="number" name="transaction-amount" id="transaction-amount">
+
+<button class="btn">Add transaction</button>
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="tracker.js"></script>
+</body>
+</html>
